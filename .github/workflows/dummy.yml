@@ -1,0 +1,12 @@
+name: dummy
+
+on: [workflow_call]
+jobs:
+  dummy1: 
+      runs-on: ubuntu-latest
+      steps:  
+        - name: Checkout repository2
+          uses: actions/checkout@v3
+        - name: always failes
+          run: |
+            exit 0

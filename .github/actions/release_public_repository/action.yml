@@ -1,0 +1,11 @@
+name: Release Public Repository
+
+description: Steps to release repository to public
+
+runs:
+  using: composite
+  steps:
+    - name: asd
+      shell: bash
+      run: | 
+        echo ""
