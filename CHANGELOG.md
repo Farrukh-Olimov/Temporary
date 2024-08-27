@@ -1,5 +1,10 @@
 :w
 
+## [v3.0.214] - 2024-08-27
+### :sparkles: New Features
+- [`0ce947b`](https://github.com/Farrukh-Olimov/Project-Python/commit/0ce947bb83af19d191453b0a34a0db033f80b60a) - added publish docs in public repo 3 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
 ## [v3.0.213] - 2024-08-27
 ### :sparkles: New Features
 - [`a528994`](https://github.com/Farrukh-Olimov/Project-Python/commit/a52899400971641bb64752b90fe7a69664f21ff5) - added publish docs in public repo 2 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -89,3 +94,4 @@
 [v3.0.211]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.210...v3.0.211
 [v3.0.212]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.211...v3.0.212
 [v3.0.213]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.212...v3.0.213
+[v3.0.214]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.213...v3.0.214
