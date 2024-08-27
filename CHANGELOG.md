@@ -1,5 +1,10 @@
 :w
 
+## [v3.0.210] - 2024-08-27
+### :bug: Bug Fixes
+- [`b787c24`](https://github.com/Farrukh-Olimov/Project-Python/commit/b787c24c05013c732411ce534cbd0840de7d35e2) - changed pushing condition *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
 ## [v3.0.205] - 2024-08-27
 ### :bug: Bug Fixes
 - [`b5c67f0`](https://github.com/Farrukh-Olimov/Project-Python/commit/b5c67f09929f60b5da7dde1b3b6f950fa8915091) - Checking is git status working *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -65,3 +70,4 @@
 [v3.0.203]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.202...v3.0.203
 [v3.0.204]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.203...v3.0.204
 [v3.0.205]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.204...v3.0.205
+[v3.0.210]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.205...v3.0.210
