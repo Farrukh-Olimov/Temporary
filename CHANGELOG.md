@@ -1,5 +1,15 @@
 :w
 
+## [v6.0.3] - 2024-08-27
+### :bug: Bug Fixes
+- [`ed26810`](https://github.com/Farrukh-Olimov/Project-Python/commit/ed2681091b0fade0a784ad190a21018b71c0bbba) - sleep 10 seconds 2 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
+## [v6.0.2] - 2024-08-27
+### :bug: Bug Fixes
+- [`5bcabd8`](https://github.com/Farrukh-Olimov/Project-Python/commit/5bcabd85572e3bfaff37543b3347ae35b048ecd4) - sleep 10 seconds *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
 ## [v6.0.1] - 2024-08-27
 ### :bug: Bug Fixes
 - [`fb911ac`](https://github.com/Farrukh-Olimov/Project-Python/commit/fb911ac4552396a4d66b72ea249615bf2dab5819) - workflow *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -192,3 +202,5 @@
 [v3.1.1]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.1.0...v3.1.1
 [v6.0.0]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.1.1...v6.0.0
 [v6.0.1]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.0...v6.0.1
+[v6.0.2]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.1...v6.0.2
+[v6.0.3]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.2...v6.0.3
