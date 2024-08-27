@@ -1,5 +1,10 @@
 :w
 
+## [v3.0.300] - 2024-08-27
+### :bug: Bug Fixes
+- [`b28618b`](https://github.com/Farrukh-Olimov/Project-Python/commit/b28618ba460f77de1c4654a10e2490bc9ed10243) - getting the previous tag21 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
 ## [v3.0.232] - 2024-08-27
 ### :bug: Bug Fixes
 - [`2ad11d9`](https://github.com/Farrukh-Olimov/Project-Python/commit/2ad11d90d7e10a8f5a026920c6314d3b3bfacc9c) - getting the previous tag20 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -162,3 +167,4 @@
 [v3.0.230]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.228...v3.0.230
 [v3.0.231]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.230...v3.0.231
 [v3.0.232]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.231...v3.0.232
+[v3.0.300]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.232...v3.0.300
