@@ -1,5 +1,41 @@
 :w
 
+## [v3.0.223] - 2024-08-27
+### :bug: Bug Fixes
+- [`efd08de`](https://github.com/Farrukh-Olimov/Project-Python/commit/efd08de45099e9d71d66b68a3ca2bf883cbc5342) - getting the previous tag4 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
+## [v3.0.222] - 2024-08-27
+### :bug: Bug Fixes
+- [`d31b4c4`](https://github.com/Farrukh-Olimov/Project-Python/commit/d31b4c454293fe534f6ad63ea55e7463a73f1400) - getting the previous tag3 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
+## [v3.0.221] - 2024-08-27
+### :bug: Bug Fixes
+- [`1a582fb`](https://github.com/Farrukh-Olimov/Project-Python/commit/1a582fb843a939e6e97a6dbd95a57a89e1d6eb46) - getting the previous tag2 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
+## [v3.0.220] - 2024-08-27
+### :bug: Bug Fixes
+- [`44dbefc`](https://github.com/Farrukh-Olimov/Project-Python/commit/44dbefc38b405ebaff12c7909a0002af8b9cefbe) - getting the previous tag *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
+## [v3.0.217] - 2024-08-27
+### :bug: Bug Fixes
+- [`5a79d8c`](https://github.com/Farrukh-Olimov/Project-Python/commit/5a79d8c75651fc7511f43f6a6e75ddfdeed59299) - commit message to public repo *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
+## [v3.0.216] - 2024-08-27
+### :bug: Bug Fixes
+- [`a077216`](https://github.com/Farrukh-Olimov/Project-Python/commit/a077216671b129458d87326757e497b0a9e52d66) - added support for public page generation *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+- [`71d80a3`](https://github.com/Farrukh-Olimov/Project-Python/commit/71d80a3d0908fc7b43b9abb784730abb1a0abd73) - commit messages to public repo *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
+## [v3.0.215] - 2024-08-27
+### :sparkles: New Features
+- [`778a641`](https://github.com/Farrukh-Olimov/Project-Python/commit/778a6418e67dbe1873efe66f73680c7935a6dfa4) - added workflow for public repo to generate page *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
 ## [v3.0.214] - 2024-08-27
 ### :sparkles: New Features
 - [`0ce947b`](https://github.com/Farrukh-Olimov/Project-Python/commit/0ce947bb83af19d191453b0a34a0db033f80b60a) - added publish docs in public repo 3 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -95,3 +131,10 @@
 [v3.0.212]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.211...v3.0.212
 [v3.0.213]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.212...v3.0.213
 [v3.0.214]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.213...v3.0.214
+[v3.0.215]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.214...v3.0.215
+[v3.0.216]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.215...v3.0.216
+[v3.0.217]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.216...v3.0.217
+[v3.0.220]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.219...v3.0.220
+[v3.0.221]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.220...v3.0.221
+[v3.0.222]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.221...v3.0.222
+[v3.0.223]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.222...v3.0.223
