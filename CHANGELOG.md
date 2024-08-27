@@ -1,5 +1,10 @@
 :w
 
+## [v6.0.0] - 2024-08-27
+### :bug: Bug Fixes
+- [`549c3b8`](https://github.com/Farrukh-Olimov/Project-Python/commit/549c3b8ab7664b77c6873202ba7ef12e11581841) - workflow *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
 ## [v3.1.1] - 2024-08-27
 ### :bug: Bug Fixes
 - [`4da3a39`](https://github.com/Farrukh-Olimov/Project-Python/commit/4da3a39ab4ac74d5f55ad725723df0db572b11c4) - getting the previous tag301 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -180,3 +185,4 @@
 [v3.0.300]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.232...v3.0.300
 [v3.1.0]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.0.300...v3.1.0
 [v3.1.1]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.1.0...v3.1.1
+[v6.0.0]: https://github.com/Farrukh-Olimov/Project-Python/compare/v3.1.1...v6.0.0
