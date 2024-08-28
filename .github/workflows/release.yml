@@ -1,4 +1,4 @@
-name: release
+name: publish
 
 on:
   push:
@@ -15,6 +15,7 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
