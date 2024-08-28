@@ -1,0 +1,36 @@
+name: publish-doc
+
+description: Steps to publish documentation page
+
+inputs:
+  token:
+    description: github token
+    required: true
+
+
+runs:
+  using: composite
+  steps:
+    - name: Install poetry
+      uses: snok/install-poetry@v1
+      with:
+        virtualenvs-create: true
+        virtualenvs-in-project: true
+        installer-parallel: true
+
+    - name: Install dependencies with poetry
+      shell: bash
+      run: | 
+        poetry install 
+        pip install sphinx
+
+    - name: Build Sphix Documentation
+      shell: bash
+      run: |
+        make -C docs html 
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ inputs.token }}
+        publish_dir: ./docs/build/html
