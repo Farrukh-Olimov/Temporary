@@ -1,5 +1,10 @@
 :w
 
+## [v6.0.27] - 2024-08-28
+### :bug: Bug Fixes
+- [`643bc0e`](https://github.com/Farrukh-Olimov/Temporary/commit/643bc0e91087dce8738bd0d0b8bc186184cbdaaf) - gh login with PAT, tag pattern final *(commit by [@github-actions[bot]](https://github.com/apps/github-actions))*
+
+
 ## [v6.0.26] - 2024-08-28
 ### :bug: Bug Fixes
 - [`2956c33`](https://github.com/Farrukh-Olimov/Project-Python/commit/2956c339e46d5b1d9db5bb2d33d86b31a854761b) - gh login with PAT, tag pattern 2 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -338,3 +343,4 @@
 [v6.0.24]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.23...v6.0.24
 [v6.0.25]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.24...v6.0.25
 [v6.0.26]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.25...v6.0.26
+[v6.0.27]: https://github.com/Farrukh-Olimov/Temporary/compare/v6.0.24...v6.0.27
