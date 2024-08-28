@@ -1,5 +1,10 @@
 :w
 
+## [v6.0.9] - 2024-08-28
+### :bug: Bug Fixes
+- [`e072b8a`](https://github.com/Farrukh-Olimov/Project-Python/commit/e072b8a2d8bbfa083cc93f8180cadac5b3c1c2ce) - copying workflow to public repo 3 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
 ## [v6.0.8] - 2024-08-28
 ### :bug: Bug Fixes
 - [`75c6730`](https://github.com/Farrukh-Olimov/Project-Python/commit/75c67305e9cc0fafa4b3e2559cec8166d343821f) - copying workflow to public repo 2 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -234,3 +239,4 @@
 [v6.0.6]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.5...v6.0.6
 [v6.0.7]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.6...v6.0.7
 [v6.0.8]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.7...v6.0.8
+[v6.0.9]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.8...v6.0.9
