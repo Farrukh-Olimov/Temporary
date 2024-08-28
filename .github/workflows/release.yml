@@ -41,3 +41,4 @@ jobs:
         uses: ./.github/actions/publish-docs
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.ref_name }}
