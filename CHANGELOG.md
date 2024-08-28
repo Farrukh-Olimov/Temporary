@@ -1,5 +1,21 @@
 :w
 
+## [v6.0.26] - 2024-08-28
+### :bug: Bug Fixes
+- [`2956c33`](https://github.com/Farrukh-Olimov/Project-Python/commit/2956c339e46d5b1d9db5bb2d33d86b31a854761b) - gh login with PAT, tag pattern 2 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
+## [v6.0.25] - 2024-08-28
+### :bug: Bug Fixes
+- [`da4b19c`](https://github.com/Farrukh-Olimov/Project-Python/commit/da4b19c9b57c28534938e9a6feefc5e4af3b2ae8) - gh login with PAT, tag pattern *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+- [`c0207c2`](https://github.com/Farrukh-Olimov/Project-Python/commit/c0207c28fccf769dda04965e23e537abdb111e6d) - gh login with PAT, tag pattern *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
+## [v6.0.24] - 2024-08-28
+### :bug: Bug Fixes
+- [`732a620`](https://github.com/Farrukh-Olimov/Project-Python/commit/732a6200b2daac5282d813428fb6d9667e927fa1) - gh login with token 4 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
 ## [v6.0.23] - 2024-08-28
 ### :bug: Bug Fixes
 - [`6198a22`](https://github.com/Farrukh-Olimov/Project-Python/commit/6198a22b8207c4c66f4f57b0ac52f2532250062c) - gh login with token 4 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -319,3 +335,6 @@
 [v6.0.21]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.20...v6.0.21
 [v6.0.22]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.21...v6.0.22
 [v6.0.23]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.22...v6.0.23
+[v6.0.24]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.23...v6.0.24
+[v6.0.25]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.24...v6.0.25
+[v6.0.26]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.25...v6.0.26
