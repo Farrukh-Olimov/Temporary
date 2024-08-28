@@ -6,9 +6,6 @@ inputs:
   token:
     description: github token
     required: true
-  tag:
-    description: tag to publish docs for
-    required: true
 
 
 runs:
@@ -37,5 +34,3 @@ runs:
       with:
         github_token: ${{ inputs.token }}
         publish_dir: ./docs/build/html
-        tag_message: "Deploying docs for ${{ inputs.tag }}"
-        tag_name: "deploy-${{ inputs.tag }}"
