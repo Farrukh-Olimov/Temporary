@@ -14,11 +14,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Commits should follow the rules: https://www.conventionalcommits.org/en/v1.0.0/#specification
       - name: Update Changelog
         id: changelog
         uses: requarks/changelog-action@v1
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.API_TOKEN_GITHUB }}
           tag: ${{ github.ref_name }}
 
       - name: Create release
