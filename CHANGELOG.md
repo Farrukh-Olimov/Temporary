@@ -1,5 +1,10 @@
 :w
 
+## [v6.0.31] - 2024-08-28
+### :bug: Bug Fixes
+- [`6dd3e9a`](https://github.com/Farrukh-Olimov/Temporary/commit/6dd3e9a36b7db4b3956490467013ab3b5368e3ed) - no tag when deploying gh-page *(commit by [@github-actions[bot]](https://github.com/apps/github-actions))*
+
+
 ## [v6.0.30] - 2024-08-28
 ### :bug: Bug Fixes
 - [`cfe5366`](https://github.com/Farrukh-Olimov/Project-Python/commit/cfe53665ce762a30ca3e234a3f8006b0c09c4bb3) - change deploy tag in gh-pages *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -362,3 +367,4 @@
 [v6.0.28]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.27...v6.0.28
 [v6.0.29]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.28...v6.0.29
 [v6.0.30]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.29...v6.0.30
+[v6.0.31]: https://github.com/Farrukh-Olimov/Temporary/compare/v6.0.30...v6.0.31
