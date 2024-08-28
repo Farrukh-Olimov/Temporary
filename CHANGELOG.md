@@ -1,5 +1,10 @@
 :w
 
+## [v6.0.6] - 2024-08-27
+### :bug: Bug Fixes
+- [`a0e9f75`](https://github.com/Farrukh-Olimov/Project-Python/commit/a0e9f75f51dbf6b2b8382dda5b859ad7df61a6f1) - sleep 10 seconds 3 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
 ## [v6.0.5] - 2024-08-27
 ### :bug: Bug Fixes
 - [`29bc50a`](https://github.com/Farrukh-Olimov/Project-Python/commit/29bc50afad849d13be945bae02e3b11ef9974d36) - sleep 10 seconds 3 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -216,3 +221,4 @@
 [v6.0.3]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.2...v6.0.3
 [v6.0.4]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.3...v6.0.4
 [v6.0.5]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.4...v6.0.5
+[v6.0.6]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.5...v6.0.6
