@@ -22,6 +22,7 @@ jobs:
           token: ${{ secrets.API_TOKEN_GITHUB }}
           tag: ${{ github.ref_name }}
 
+          
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
