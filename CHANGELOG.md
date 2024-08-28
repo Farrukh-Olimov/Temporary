@@ -1,5 +1,10 @@
 :w
 
+## [v6.0.30] - 2024-08-28
+### :bug: Bug Fixes
+- [`9d639a3`](https://github.com/Farrukh-Olimov/Temporary/commit/9d639a348d642ab43fbd03eecf08c70f69910e3f) - change deploy tag in gh-pages *(commit by [@github-actions[bot]](https://github.com/apps/github-actions))*
+
+
 ## [v6.0.29] - 2024-08-28
 ### :bug: Bug Fixes
 - [`380e2ca`](https://github.com/Farrukh-Olimov/Project-Python/commit/380e2caebc4f726b86edc150db1fabe0b1a671c5) - gh-page generation for both private and public 2 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -356,3 +361,4 @@
 [v6.0.27]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.26...v6.0.27
 [v6.0.28]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.27...v6.0.28
 [v6.0.29]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.28...v6.0.29
+[v6.0.30]: https://github.com/Farrukh-Olimov/Temporary/compare/v6.0.29...v6.0.30
