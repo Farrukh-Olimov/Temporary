@@ -37,5 +37,5 @@ runs:
       with:
         github_token: ${{ inputs.token }}
         publish_dir: ./docs/build/html
-        tag_message: " Deploying docs for ${{ inputs.tag }}"
-        tag_name: ${{ inputs.tag }}
+        tag_message: "Deploying docs for ${{ inputs.tag }}"
+        tag_name: "deploy-${{ inputs.tag }}"
