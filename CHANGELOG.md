@@ -1,5 +1,10 @@
 :w
 
+## [v6.0.28] - 2024-08-28
+### :bug: Bug Fixes
+- [`c496733`](https://github.com/Farrukh-Olimov/Temporary/commit/c496733c78b090dd596d11350ab880e2f6924d6a) - gh-page generation for both private and public *(commit by [@github-actions[bot]](https://github.com/apps/github-actions))*
+
+
 ## [v6.0.27] - 2024-08-28
 ### :bug: Bug Fixes
 - [`403a6f6`](https://github.com/Farrukh-Olimov/Project-Python/commit/403a6f606575085a8df75afe4cc681ef2d86e3ad) - gh login with PAT, tag pattern final *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -344,3 +349,4 @@
 [v6.0.25]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.24...v6.0.25
 [v6.0.26]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.25...v6.0.26
 [v6.0.27]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.26...v6.0.27
+[v6.0.28]: https://github.com/Farrukh-Olimov/Temporary/compare/v6.0.27...v6.0.28
