@@ -14,30 +14,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-
-      # Commits should follow the rules: https://www.conventionalcommits.org/en/v1.0.0/#specification
-      - name: Update Changelog
-        id: changelog
-        uses: requarks/changelog-action@v1
-        with:
-          token: ${{ github.token }}
-          tag: ${{ github.ref_name }}
+#      # Commits should follow the rules: https://www.conventionalcommits.org/en/v1.0.0/#specification
+#      - name: Update Changelog
+#        id: changelog
+#        uses: requarks/changelog-action@v1
+#        with:
+#          token: ${{ github.token }}
+#          tag: ${{ github.ref_name }}
 
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
           prerelease: false
-          body: ${{ steps.changelog.outputs.changes }}
+#          body: ${{ steps.changelog.outputs.changes }}
+          body_path: "CHANGELOG.md"
           token: ${{secrets.GITHUB_TOKEN}}
           tag_name: ${{ github.ref_name }}
 
-      - name: Commit Changelog.md
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          branch: main
-          commit_message: 'docs: update CHANGELOG.md for ${{ github.ref_name }} [skip ci]'
-          file_pattern: CHANGELOG.md
-
+#      - name: Commit Changelog.md
+#        uses: stefanzweifel/git-auto-commit-action@v4
+#        with:
+#          branch: main
+#          commit_message: 'docs: update CHANGELOG.md for ${{ github.ref_name }} [skip ci]'
+#          file_pattern: CHANGELOG.md
       - name: Publish docs
         uses: ./.github/actions/publish-docs
         with:

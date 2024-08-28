@@ -1,5 +1,30 @@
 # CHANGELOG
 
+## [v6.0.41] - 2024-08-28
+### :bug: Bug Fixes
+- [`287f300`](https://github.com/Farrukh-Olimov/Project-Python/commit/287f300f78da0477b74f025873b4d157b4894eee) - changelog in release 2 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+- [`6d8b503`](https://github.com/Farrukh-Olimov/Project-Python/commit/6d8b5035d1c9c06d970d25b8e5b5b18667e745cf) - changelog in release final *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+- [`6796c19`](https://github.com/Farrukh-Olimov/Project-Python/commit/6796c192d2bc3f6dfb085936645950c0133fc96a) - changelog in release final 1 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
+## [v6.0.40] - 2024-08-28
+### :bug: Bug Fixes
+- [`287f300`](https://github.com/Farrukh-Olimov/Project-Python/commit/287f300f78da0477b74f025873b4d157b4894eee) - changelog in release 2 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+- [`6d8b503`](https://github.com/Farrukh-Olimov/Project-Python/commit/6d8b5035d1c9c06d970d25b8e5b5b18667e745cf) - changelog in release final *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
+## [v6.0.39] - 2024-08-28
+### :bug: Bug Fixes
+- [`f47819b`](https://github.com/Farrukh-Olimov/Project-Python/commit/f47819b979bccc80d5961075185e839815f1bb57) - check python *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+- [`7ff1c37`](https://github.com/Farrukh-Olimov/Project-Python/commit/7ff1c3797ad26fd9b24870b2ed9135f27a819a50) - fixed python script to deteect last release *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+- [`6bc673e`](https://github.com/Farrukh-Olimov/Project-Python/commit/6bc673edfad0bb39812ed70cf713f08125c3ac46) - changelog in release *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
+## [v6.0.35] - 2024-08-28
+### :bug: Bug Fixes
+- [`84a18f5`](https://github.com/Farrukh-Olimov/Project-Python/commit/84a18f508f75f2055414a170c89766a43616c0c6) - removed some loggings *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
 ## [v6.0.34] - 2024-08-28
 ### :bug: Bug Fixes
 - [`dc46ad5`](https://github.com/Farrukh-Olimov/Project-Python/commit/dc46ad5abb0fce07bb138cd4beebce78051099a4) - release.yml final *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -988,3 +1013,11 @@ $ {{ steps.changelog.outputs.changes }}
 [v6.0.32]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.31...v6.0.32
 [v6.0.33]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.32...v6.0.33
 [v6.0.34]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.33...v6.0.34
+[v6.0.35]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.34...v6.0.35
+[v6.0.39]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.37...v6.0.39
+[v6.0.40]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.39...v6.0.40
+[v6.0.41]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.39...v6.0.41
+### :bug: Bug Fixes
+- [](https://github.com/Farrukh-Olimov/Project-Python/commit/6796c192d2bc3f6dfb085936645950c0133fc96a) - changelog in release final 1 *(commit by @Farrukh-Olimov)*
+- [](https://github.com/Farrukh-Olimov/Project-Python/commit/ecad1453801114dd4db17b1ed0b30b73f73bdc16) - changelog in release final 2 *(commit by @Farrukh-Olimov)*
+
