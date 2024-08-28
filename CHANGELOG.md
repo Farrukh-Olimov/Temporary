@@ -1,5 +1,15 @@
 :w
 
+## [v6.0.15] - 2024-08-28
+### :bug: Bug Fixes
+- [`0b82f09`](https://github.com/Farrukh-Olimov/Project-Python/commit/0b82f09b8891f6f6b70548f2b638754502e14416) - added conditional_release *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
+## [v6.0.14] - 2024-08-28
+### :bug: Bug Fixes
+- [`4ee57dd`](https://github.com/Farrukh-Olimov/Project-Python/commit/4ee57dd96b09ea8ce209fe6b2e30854335f83fed) - added conditional_release *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
 ## [v6.0.13] - 2024-08-28
 ### :bug: Bug Fixes
 - [`5bb6910`](https://github.com/Farrukh-Olimov/Project-Python/commit/5bb69104fa506702d8794e0b0ade2e9ac1556ed3) - copying workflow to public repo 4 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -259,3 +269,5 @@
 [v6.0.10]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.9...v6.0.10
 [v6.0.12]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.10...v6.0.12
 [v6.0.13]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.12...v6.0.13
+[v6.0.14]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.13...v6.0.14
+[v6.0.15]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.14...v6.0.15
