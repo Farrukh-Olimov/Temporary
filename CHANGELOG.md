@@ -1,5 +1,10 @@
 :w
 
+## [v6.0.18] - 2024-08-28
+### :bug: Bug Fixes
+- [`3688eeb`](https://github.com/Farrukh-Olimov/Project-Python/commit/3688eeb2a1c47237d793bc0c65e1fbbb4227b023) - added main as gh 3 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
 ## [v6.0.17] - 2024-08-28
 ### :bug: Bug Fixes
 - [`f1a8a44`](https://github.com/Farrukh-Olimov/Project-Python/commit/f1a8a4485a1be8f990d0ea60dc0cdebb7d860d31) - added main as gh 2 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -283,3 +288,4 @@
 [v6.0.15]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.14...v6.0.15
 [v6.0.16]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.15...v6.0.16
 [v6.0.17]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.16...v6.0.17
+[v6.0.18]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.17...v6.0.18
