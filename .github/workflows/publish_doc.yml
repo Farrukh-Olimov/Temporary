@@ -1,0 +1,20 @@
+name: publish_doc
+
+on:
+  workflow_call: 
+    inputs:
+      release:
+        required: true
+        type: boolean
+jobs: 
+  deploy_docs: 
+    runs-on: ubuntu-latest
+    if: ${{inputs.release}}
+    steps: 
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/build/html
+
+
