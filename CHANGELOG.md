@@ -2,7 +2,7 @@
 
 ## [v6.0.29] - 2024-08-28
 ### :bug: Bug Fixes
-- [`21d691a`](https://github.com/Farrukh-Olimov/Temporary/commit/21d691afa3d172c6e401dfd88ea0081840caabe5) - gh-page generation for both private and public 2 *(commit by [@github-actions[bot]](https://github.com/apps/github-actions))*
+- [`380e2ca`](https://github.com/Farrukh-Olimov/Project-Python/commit/380e2caebc4f726b86edc150db1fabe0b1a671c5) - gh-page generation for both private and public 2 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
 
 
 ## [v6.0.28] - 2024-08-28
@@ -355,4 +355,4 @@
 [v6.0.26]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.25...v6.0.26
 [v6.0.27]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.26...v6.0.27
 [v6.0.28]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.27...v6.0.28
-[v6.0.29]: https://github.com/Farrukh-Olimov/Temporary/compare/v6.0.28...v6.0.29
+[v6.0.29]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.28...v6.0.29
