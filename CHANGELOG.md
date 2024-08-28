@@ -1,5 +1,10 @@
 :w
 
+## [v6.0.20] - 2024-08-28
+### :bug: Bug Fixes
+- [`8903573`](https://github.com/Farrukh-Olimov/Project-Python/commit/8903573a9ecef027658ad7909f3de815ca55d89a) - gh login with token *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
+
+
 ## [v6.0.19] - 2024-08-28
 ### :bug: Bug Fixes
 - [`e353580`](https://github.com/Farrukh-Olimov/Project-Python/commit/e353580867a713a8dfdbb996f015c0db32abd0da) - added main as gh 4 *(commit by [@Farrukh-Olimov](https://github.com/Farrukh-Olimov))*
@@ -295,3 +300,4 @@
 [v6.0.17]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.16...v6.0.17
 [v6.0.18]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.17...v6.0.18
 [v6.0.19]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.18...v6.0.19
+[v6.0.20]: https://github.com/Farrukh-Olimov/Project-Python/compare/v6.0.19...v6.0.20
