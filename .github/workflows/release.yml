@@ -14,6 +14,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install poetry
+        uses: ./.github/actions/poetry-install
+
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
