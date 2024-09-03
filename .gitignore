@@ -4,8 +4,7 @@ __pycache__/
 *$py.class
 
 # C extensions
-*.cpp
-*.h
+# *.so
 
 # Distribution / packaging
 .Python
@@ -128,3 +127,4 @@ dmypy.json
 
 # Workflows
 #.github/
+asd.hp
