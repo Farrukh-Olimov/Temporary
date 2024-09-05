@@ -1,3 +1,3 @@
 ### :bug: Bug Fixes
-- [](https://github.com/Farrukh-Olimov/Project-Python/commit/f266c3c9e14ffb9b6726cf49b0086b713d45d252) - added merging branches to master *(commit by @Farrukh-Olimov)*
+- [](https://github.com/Farrukh-Olimov/Project-Python/commit/aafee40c5a09edf334b8f3fcd7f19769a413f2d7) - added merging branches to master *(commit by @Farrukh-Olimov)*
 
