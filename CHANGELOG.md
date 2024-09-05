@@ -1,3 +1,3 @@
 ### :bug: Bug Fixes
-- [](https://github.com/Farrukh-Olimov/Project-Python/commit/f0eeca24b69d38ff9c108604244825e30b320666) - poetry version *(commit by @Farrukh-Olimov)*
+- [](https://github.com/Farrukh-Olimov/Project-Python/commit/d5f3166e9fd4b9598cdd739fc34dd3fd84bc7207) - changed workflow *(commit by @Farrukh-Olimov)*
 

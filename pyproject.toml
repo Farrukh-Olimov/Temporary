@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "poetry-template"
-version = "7.0.2"
+version = "7.1.2"
 description = "A minimal, strictly structured Python project template."
 
 license = "MIT"
@@ -49,4 +49,5 @@ build-backend = "poetry.masonry.api"
 
 
 [tool.poetry_bumpversion.file."poetry_template/__init__.py"]
+search = '__version__ = "{current_version}"'
 replace = '__version__ = "{new_version}"'
