@@ -1,3 +1,3 @@
 ### :bug: Bug Fixes
-- [](https://github.com/Farrukh-Olimov/Project-Python/commit/9b5ac37a634f6b3a6464ee845650a1db69498629) - lala2 *(commit by @Farrukh-Olimov)*
+- [](https://github.com/Farrukh-Olimov/Project-Python/commit/ed48455350c80c31857b1645ccddfbc9b9975cab) - added poetry-bum *(commit by @Farrukh-Olimov)*
 
