@@ -29,6 +29,16 @@ jobs:
         uses: ./.github/actions/publish-docs
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+  update_main:
+    needs: [release]
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install poetry
+        uses: ./.github/actions/poetry-install
 
       - name: Move main to dev
         id: dev-next
