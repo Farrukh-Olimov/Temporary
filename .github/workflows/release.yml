@@ -43,9 +43,21 @@ jobs:
       - name: Move main to dev
         id: dev-next
         run: |
-          poetry env info
-          echo $(ls -l )
-          poetry version prerelease --verbose
+          echo "
+          [bumpversion]
+          current_version = $(poetry version --short)
+          commit = False
+          tag = False
+          
+          [bumpversion:file:pyproject.toml]
+          search = version = "{current_version}"
+          replace = version = "{new_version}"
+                    
+          [bumpversion:file:poetry_template/__init__.py]
+          search = __version__ == '{current_version}'
+          replace = __version__ == '{new_version}'          
+          " > .bumpversion.cfg
+          poetry run bumpversion --new-version $(poetry version --short) --allow-dirty --no-commit --no-tag --verbose 
 
       - name: Commit Changelog.md
         uses: stefanzweifel/git-auto-commit-action@v4

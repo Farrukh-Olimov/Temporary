@@ -1,3 +1,3 @@
 ### :bug: Bug Fixes
-- [](https://github.com/Farrukh-Olimov/Project-Python/commit/b2f6e7f29f687d197471866ba0e06286ce4d2435) - something *(commit by @Farrukh-Olimov)*
+- [](https://github.com/Farrukh-Olimov/Project-Python/commit/674abe70467bd8be73df80a5d9d26c213e69694f) - bumpversion check *(commit by @Farrukh-Olimov)*
 
