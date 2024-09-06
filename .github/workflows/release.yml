@@ -49,13 +49,11 @@ jobs:
           commit = False
           tag = False
           
+          [bumpversion:file:./poetry_template/__init__.py]
+
           [bumpversion:file:pyproject.toml]
           search = version = "{current_version}"
-          replace = version = "{new_version}"
-                    
-          [bumpversion:file:poetry_template/__init__.py]
-          search = __version__ == '{current_version}'
-          replace = __version__ == '{new_version}'          
+          replace = version = "{new_version}"         
           " > .bumpversion.cfg
           nxtRelease=$(poetry version prerelease --short --dry-run) 
           nxtRelease=($nxtRelease)
