@@ -45,7 +45,7 @@ jobs:
         run: |
           poetry env info
           echo $(ls -l )
-          poetry version -C "./" prerelease --verbose
+          poetry version prerelease --verbose
 
       - name: Commit Changelog.md
         uses: stefanzweifel/git-auto-commit-action@v4
