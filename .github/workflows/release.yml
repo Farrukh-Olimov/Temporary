@@ -58,7 +58,7 @@ jobs:
           replace = __version__ == '{new_version}'          
           " > .bumpversion.cfg
           nxtRelease=$(poetry version prerelease --short --dry-run) 
-          nxtRelease=$(nxtRelease)
+          nxtRelease=($nxtRelease)
           poetry run bumpversion --new-version "${nxtRelease[0]}" patch --allow-dirty --no-commit --no-tag --verbose 
 
       - name: Commit Changelog.md
