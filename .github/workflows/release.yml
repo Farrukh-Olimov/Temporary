@@ -29,3 +29,16 @@ jobs:
         uses: ./.github/actions/publish-docs
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Move main to dev
+        id: dev-next
+        run: |
+          poetry env info
+          echo $(ls -l )
+          poetry version -C "./" prerelease --verbose
+
+      - name: Commit Changelog.md
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: master
+          commit_message: 'move master to $(poetry version --short)'
