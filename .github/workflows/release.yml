@@ -43,7 +43,7 @@ jobs:
       - name: Move main to dev
         id: dev-next
         run: |
-          echo "
+          echo '
           [bumpversion]
           current_version = $(poetry version --short)
           commit = False
@@ -54,7 +54,7 @@ jobs:
           [bumpversion:file:pyproject.toml]
           search = version = "{current_version}"
           replace = version = "{new_version}"         
-          " > .bumpversion.cfg
+          ' > .bumpversion.cfg
           nxtRelease=$(poetry version prerelease --short --dry-run) 
           nxtRelease=($nxtRelease)
           poetry run bumpversion --new-version "${nxtRelease[0]}" patch --allow-dirty --no-commit --no-tag --verbose 
