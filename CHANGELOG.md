@@ -1,3 +1,3 @@
 ### :bug: Bug Fixes
-- [](https://github.com/Farrukh-Olimov/Project-Python/commit/f9206b60909e091b6d4f6b1486ddf2727d0acc5c) - final fix *(commit by @Farrukh-Olimov)*
+- [](https://github.com/Farrukh-Olimov/Project-Python/commit/7f343d76e29bd91f083c8df1a9f6e0866be443ee) - final of final *(commit by @Farrukh-Olimov)*
 
