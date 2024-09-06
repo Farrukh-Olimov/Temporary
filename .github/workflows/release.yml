@@ -29,16 +29,6 @@ jobs:
         uses: ./.github/actions/publish-docs
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-  update_main:
-    needs: [release]
-    runs-on: ubuntu-latest
-    permissions: write-all
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Install poetry
-        uses: ./.github/actions/poetry-install
 
       - name: Move main to dev
         id: dev-next
@@ -54,21 +44,21 @@ jobs:
                   {major}.{minor}.{patch}
           commit = False
           tag = False
-          
+
           [bumpversion:part:dev]
           values =
                   ""
                   dev
-          
+
           [bumpversion:part:release]
           values =
                   ""
                   alpha
                   beta
                   rc
-          
+
           [bumpversion:file:./poetry_template/__init__.py]
-          
+
           [bumpversion:file:pyproject.toml]
           search = version = \"{current_version}\"
           replace = version = \"{new_version}\"       
