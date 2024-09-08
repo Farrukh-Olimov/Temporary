@@ -32,12 +32,14 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Move main to dev
+        id: version
         run: |
           source "$(poetry env info --path)/bin/activate"
           poetry version prerelease --verbose
+          echo "nextVersion=$(poetry version --short)" >> "$GITHUB_OUTPUT"
 
       - name: Commit Changelog.md
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: main
-          commit_message: 'move master to $(poetry version --short)'
+          commit_message: "move master to ${{ steps.version.outputs.nextVersion }}"
