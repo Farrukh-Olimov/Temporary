@@ -25,54 +25,11 @@ runs:
       uses: actions/setup-python@v5
       with:
         python-version: 3.9
-        cache: "poetry"
-
-    - name: Load cached venv
-      id: cached0
-      uses: actions/cache@v3
-      with:
-        path: "${{ inputs.working_directory }}/.venv"
-        key: venv-${{ runner.os }}-${{ hashFiles('${{ inputs.working_directory }}/poetry.lock') }}
-        restore-keys: |
-          venv-${{ runner.os }}-
-
-    - name: Load cached venv
-      id: cached-poetry-dependencies
-      uses: actions/cache@v3
-      with:
-        path: "${{ inputs.working_directory }}/.venv"
-        key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
-
-    - name: Load cached venv
-      id: cached2
-      uses: actions/cache@v3
-      with:
-        path: .venv
-        key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
-
-    - name: Load cached venv
-      id: cached3
-      uses: actions/cache@v3
-      with:
-        path: .venv
-        key: ${{ hashFiles('**/poetry.lock') }}
-
-    - name: Load cached venv
-      id: cached4
-      uses: actions/cache@v3
-      with:
-        path: .venv
 
     - name: Install dependencies with poetry
       if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
       shell: bash
       run: | 
-        echo "Cached0: ${{ steps.cached0.outputs.cache-hit }}"
-        echo "Cached1: ${{ steps.cached-poetry-dependencies.outputs.cache-hit }}"
-        echo "Cached2: ${{ steps.cached2.outputs.cache-hit }}"
-        echo "Cached3: ${{ steps.cached3.outputs.cache-hit }}"
-        echo "Cached4: ${{ steps.cached4.outputs.cache-hit }}"
-        echo "Setup tools: ${{steps.setup-python.outputs.cache-hit }}"
         cd ${{ inputs.working_directory }}
         poetry install 
         pip install sphinx
