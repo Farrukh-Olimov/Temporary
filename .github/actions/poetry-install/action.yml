@@ -12,13 +12,6 @@ inputs:
 runs:
   using: composite
   steps:
-    - name: Setup python
-      id: setup-python
-      uses: actions/setup-python@v5
-      with:
-        python-version: 3.9
-        cache-dependency-path: "**/poetry.lock"
-
     - name: Install poetry
       uses: snok/install-poetry@v1
       with:
@@ -26,6 +19,14 @@ runs:
         virtualenvs-in-project: true
         virtualenvs-create: true
         installer-parallel: true
+
+    - name: Setup python
+      id: setup-python
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.9
+        cache: "poetry"
+
 
     - name: Load cached venv
       id: cached-poetry-dependencies
