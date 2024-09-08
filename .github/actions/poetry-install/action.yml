@@ -14,9 +14,10 @@ runs:
   steps:
     - name: Setup python
       id: setup-python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: 3.9
+        cache-dependency-path: "**/poetry.lock"
 
     - name: Install poetry
       uses: snok/install-poetry@v1
@@ -38,6 +39,7 @@ runs:
       shell: bash
       run: | 
         echo "Cached: ${{ steps.cached-poetry-dependencies.outputs.cache-hit }}"
+        echo "Cache2: ${{steps.setup-python.outputs.cache-hit }}"
         cd ${{ inputs.working_directory }}
         poetry install 
         pip install sphinx
