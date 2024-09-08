@@ -1,4 +1,4 @@
 ### :bug: Bug Fixes
-- [](https://github.com/Farrukh-Olimov/Project-Python/commit/743fd3dc47d0629fa36f97b63cbaf66b5ec948fa) - release files *(commit by @Farrukh-Olimov)*
-- [](https://github.com/Farrukh-Olimov/Project-Python/commit/bafddbfff41e39327436b107c44ebb3abf16dc82) - release files *(commit by @Farrukh-Olimov)*
+- [](https://github.com/Farrukh-Olimov/Project-Python/commit/5f3521caf115ebdd66b7fc0d949b1d036637c935) - fix *(commit by @Farrukh-Olimov)*
+- [](https://github.com/Farrukh-Olimov/Project-Python/commit/43612c584091b1c157efa84c6c3402c3fa9b9d19) - fix *(commit by @Farrukh-Olimov)*
 
