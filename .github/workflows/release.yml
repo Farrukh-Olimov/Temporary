@@ -31,7 +31,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Move main to dev
-        id: dev-next
         run: |
           echo "
           [bumpversion]

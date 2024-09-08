@@ -15,7 +15,8 @@ runs:
     - name: Install poetry
       uses: snok/install-poetry@v1
       with:
-        virtualenvs-path: ${{ inputs.working_directory }}
+        virtualenvs-path: "${{ inputs.working_directory }}/.venv"
+        virtualenvs-in-project: true
         virtualenvs-create: true
         installer-parallel: true
 
@@ -25,4 +26,5 @@ runs:
         cd ${{ inputs.working_directory }}
         poetry add bumpversion
         poetry install 
+        echo "$(poetry env info)"
         pip install sphinx
