@@ -21,3 +21,8 @@ runs:
       with:
         github_token: ${{ inputs.token }}
         publish_dir: ./docs/build/html
+
+    - name: Remove Pages
+      shell: bash 
+      run: | 
+          rm -rf ./docs/build
